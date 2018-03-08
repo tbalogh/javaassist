@@ -1,0 +1,10 @@
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testCompile 'junit:junit:3.8.1'
+    compile 'com.google.guava:guava:19.0'
+}
