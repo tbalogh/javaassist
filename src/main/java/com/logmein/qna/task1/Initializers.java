@@ -3,7 +3,7 @@ package com.logmein.qna.task1;
 /**
  * Created by bbanyai on 3/8/18.
  */
-public class Task1 {
+public class Initializers {
 
     public static void main(String... args) throws ClassNotFoundException {
 
@@ -13,9 +13,7 @@ public class Task1 {
 
         Class initializedClass = Class.forName("com.logmein.qna.task1.Apple");
 
-        new com.logmein.qna.task1.Apple();
-
-
+        new Apple();
 
     }
 
