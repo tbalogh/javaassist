@@ -2,7 +2,7 @@ package com.logmein.qna.task1;
 
 public class Statics {
 
-    public static void main(String... args) throws ClassNotFoundException {
+    public static void main(String... args) {
 
         Pear pear = new Pear();
         pear.printFruit();
