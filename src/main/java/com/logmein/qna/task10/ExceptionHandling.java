@@ -1,7 +1,5 @@
 package com.logmein.qna.task10;
 
-import java.util.concurrent.*;
-
 /**
  * Created by bbanyai on 3/8/18.
  */
