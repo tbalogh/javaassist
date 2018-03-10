@@ -13,7 +13,8 @@ public class WithTimeLimiter {
     public static void main(String... args) throws Exception {
 
         try {
-            new SimpleTimeLimiter().callWithTimeout(WithTimeLimiter::veryLongOperation, 2, TimeUnit.SECONDS, true);
+            new SimpleTimeLimiter()
+                    .callWithTimeout(WithTimeLimiter::veryLongOperation, 2, TimeUnit.SECONDS, true);
         } catch (UncheckedTimeoutException e) {
             System.out.println("task did not complete within given time");
         }

@@ -12,6 +12,9 @@ public class NestedLombokked {
                 .wheel(new ForgedWheel())
                 .build();
 
+        car.getNumberPlate();
+
+
     }
 
 }
